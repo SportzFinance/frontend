@@ -5,12 +5,12 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'SLOTH-BUSD LP',
+    lpSymbol: 'BALL-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x1fa1F2c8e6498915c2452e5a1d63a27eD26a8942',
     },
-    tokenSymbol: 'SLOTH',
+    tokenSymbol: 'BALL',
     tokenAddresses: {
       97: '',
       56: '0xacf12aa729c7d6f45f7c116dd369930c6d46b584',
@@ -21,12 +21,12 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'SLOTH-BNB LP',
+    lpSymbol: 'BALL-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x43F7c59De754F4f5da8e4985cF66AC81cBB41C65',
     },
-    tokenSymbol: 'SLOTH',
+    tokenSymbol: 'BALL',
     tokenAddresses: {
       97: '',
       56: '0xacf12aa729c7d6f45f7c116dd369930c6d46b584',
@@ -50,23 +50,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-  {
-    pid: 3,
-    risk: 5,
-    isTokenOnly: true,
-    lpSymbol: 'SLOTH',
-    lpAddresses: {
-      97: '',
-      56: '0x1fa1F2c8e6498915c2452e5a1d63a27eD26a8942', // EGG-BUSD LP
-    },
-    tokenSymbol: 'SLOTH',
-    tokenAddresses: {
-      97: '',
-      56: '0xacf12aa729c7d6f45f7c116dd369930c6d46b584',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
+  
   // {
   //   pid: 3,
   //   risk: 1,
