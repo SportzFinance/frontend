@@ -18,7 +18,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-  
+
   {
     pid: 1,
     risk: 5,
@@ -34,23 +34,6 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
-  },
-
-  {
-    pid: 2,
-    risk: 5,
-    lpSymbol: 'LAL-BALL LP',
-    lpAddresses: {
-      97: '',
-      56: '0x65a11d6b2301b49d3a9f28d6367693123aa85a2d',
-    },
-    tokenSymbol: 'LAL',
-    tokenAddresses: {
-      97: '',
-      56: '0x64121a6eCe0083FB8Aadbead932673899683B36C',
-    },
-    quoteTokenSymbol: QuoteToken.CAKE,
-    quoteTokenAdresses: contracts.cake,
   },
 
   {
@@ -120,7 +103,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
-
+  {
+    pid: 2,
+    risk: 5,
+    lpSymbol: 'LAL-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0x65a11d6b2301b49d3a9f28d6367693123aa85a2d',
+    },
+    tokenSymbol: 'LAL',
+    tokenAddresses: {
+      97: '',
+      56: '0x64121a6eCe0083FB8Aadbead932673899683B36C',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
   {
     pid: 4,
     risk: 3,

@@ -11,12 +11,36 @@ const config: MenuEntry[] = [
     icon: 'TradeIcon',
     items: [
       {
-        label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap',
+        label: 'Buy BALL',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xDb44A32d10d793795C691F1aE4067C626d903852',
       },
       {
         label: 'Liquidity',
         href: 'https://exchange.pancakeswap.finance/#/pool',
+      },
+      {
+        label: 'Buy LAC',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x015096C90433D27c36972Fe3DA10231e1a0865bF',
+      },
+      {
+        label: 'Buy LAL',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x65a11d6b2301b49d3a9f28d6367693123aa85a2d',
+      },
+      {
+        label: 'Buy MIL',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xCC6074E5Bf1F8bc8d80acec62Ba75D9Ff2b50e7d',
+      },
+      {
+        label: 'Buy PHO',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xDc0ca7473dF7767907a90B5a8750966f169fe3Cf',
+      },
+      {
+        label: 'Buy PHI',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x37F0Df4395ABa3810317BFcFC2fc2059Ec3ac6ee',
+      },
+      {
+        label: 'Buy UTA',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbf8cF0478BBDC500EbEF67d03b5364897A62849D',
       },
     ],
   },
