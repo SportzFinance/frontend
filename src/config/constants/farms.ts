@@ -52,7 +52,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   }, 
-
+  {
+    pid: 15,
+    risk: 3,
+    lpSymbol: 'ATL-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0x24a08462f30187d0a47a00a8e5d89598922ecfcb',
+    },
+    tokenSymbol: 'ATL',
+    tokenAddresses: {
+      97: '',
+      56: '0x95432e20657a346c9ED26CF64BFc9A022aE17C84',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
   {
     pid: 5,
     risk: 3,
@@ -69,7 +84,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
-
+  {
+    pid: 17,
+    risk: 3,
+    lpSymbol: 'BOS-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0xd09d7590869c99fbd5992c448e986c9b677e9d27',
+    },
+    tokenSymbol: 'BOS',
+    tokenAddresses: {
+      97: '',
+      56: '0x2F5201F3545998Bf07Db7eC292116848E727aE94',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
   {
     pid: 10,
     risk: 3,
@@ -86,7 +116,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
-
+  {
+    pid: 11,
+    risk: 3,
+    lpSymbol: 'DEN-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0xdd90e54d5699b5d6dc73aebd71f3d7451786afeb',
+    },
+    tokenSymbol: 'DEN',
+    tokenAddresses: {
+      97: '',
+      56: '0xA58B0C55ad2B4472598B936c055c08A54d86B4F8',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
   {
     pid: 7,
     risk: 3,
@@ -120,6 +165,38 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.cake,
   },
   {
+    pid: 18,
+    risk: 3,
+    lpSymbol: 'MEM-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0x78d50f5d9fc8daed9668fe33f6691db6fd340812',
+    },
+    tokenSymbol: 'MEM',
+    tokenAddresses: {
+      97: '',
+      56: '0xF022C3C6104c462be098Be750F09f2b822612B8e',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
+    pid: 16,
+    risk: 3,
+    lpSymbol: 'MIA-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0x2279d0bd0fdd00a9d1766e80b67a55bd497487b4',
+    },
+    tokenSymbol: 'MIA',
+    tokenAddresses: {
+      97: '',
+      56: '0x892fdc14BBfd0444Ef43a4745477800F3d73C0E8',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
     pid: 4,
     risk: 3,
     lpSymbol: 'MIL-BALL LP',
@@ -135,24 +212,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
-
   {
-    pid: 9,
+    pid: 14,
     risk: 3,
-    lpSymbol: 'PHO-BALL LP',
+    lpSymbol: 'NYK-BALL LP',
     lpAddresses: {
       97: '',
-      56: '0x8fce78c4601da76697b9c14acebcbd07dfa11583',
+      56: '0x17682bd502565284b5c0fdb4cc0ae7924f533066',
     },
-    tokenSymbol: 'PHO',
+    tokenSymbol: 'NYK',
     tokenAddresses: {
       97: '',
-      56: '0xDc0ca7473dF7767907a90B5a8750966f169fe3Cf',
+      56: '0x45d222FdE5d6D4beaad0e14334fE63865e62D6aa',
     },
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
-
   {
     pid: 6,
     risk: 3,
@@ -169,7 +244,38 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
-
+  {
+    pid: 9,
+    risk: 3,
+    lpSymbol: 'PHO-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0x8fce78c4601da76697b9c14acebcbd07dfa11583',
+    },
+    tokenSymbol: 'PHO',
+    tokenAddresses: {
+      97: '',
+      56: '0xDc0ca7473dF7767907a90B5a8750966f169fe3Cf',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
+    pid: 12,
+    risk: 3,
+    lpSymbol: 'POR-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0x3195c67fbcdc779da94e9145e08bc8de476b8313',
+    },
+    tokenSymbol: 'POR',
+    tokenAddresses: {
+      97: '',
+      56: '0x2b7DF1A1FC59dD661B83Aa24C6E035689287AE77',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
   {
     pid: 8,
     risk: 3,
@@ -186,7 +292,23 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
-
+  {
+    pid: 13,
+    risk: 3,
+    lpSymbol: 'WAS-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0xe71997a24c5528f21f3e9f8a7e5a1996428ee646',
+    },
+    tokenSymbol: 'WAS',
+    tokenAddresses: {
+      97: '',
+      56: '0x5C54190fAca45771548AB909C9804C0b8af303e6',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+    
  
   // {
   //   pid: 3,

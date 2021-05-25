@@ -55,12 +55,12 @@ const App: React.FC = () => {
             <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/farms">
+            <Route path="/betting">
               <Farms />
             </Route>
-            <Route path="/nests">
+            {/* <Route path="/nests">
               <Farms tokenMode/>
-            </Route>
+              </Route> */} 
             {/* <Route path="/pools"> */}
             {/*  <Pools /> */}
             {/* </Route> */}
