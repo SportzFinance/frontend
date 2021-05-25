@@ -18,6 +18,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  
   {
     pid: 1,
     risk: 5,
@@ -34,6 +35,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
+
   {
     pid: 2,
     risk: 5,
@@ -50,6 +52,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
+
   {
     pid: 3,
     risk: 3,
@@ -66,22 +69,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   }, 
-  {
-    pid: 4,
-    risk: 3,
-    lpSymbol: 'MIL-BALL LP',
-    lpAddresses: {
-      97: '',
-      56: '0x5c6c008af170f0e6c4ca4812c40f77bc905ec62a',
-    },
-    tokenSymbol: 'MIL',
-    tokenAddresses: {
-      97: '',
-      56: '0xCC6074E5Bf1F8bc8d80acec62Ba75D9Ff2b50e7d',
-    },
-    quoteTokenSymbol: QuoteToken.CAKE,
-    quoteTokenAdresses: contracts.cake,
-  },
+
   {
     pid: 5,
     risk: 3,
@@ -98,6 +86,75 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
+
+  {
+    pid: 10,
+    risk: 3,
+    lpSymbol: 'DAL-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0x4de45f43f2bb767c8c37ec92f40d0387da5cfc61',
+    },
+    tokenSymbol: 'DAL',
+    tokenAddresses: {
+      97: '',
+      56: '0x7a2c9448C33eeAD1e76872cCf56b4E701A9A7B2F',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+
+  {
+    pid: 7,
+    risk: 3,
+    lpSymbol: 'LAC-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0xa682944db3be8ad73a6a4105c98ecb68d9422cf9',
+    },
+    tokenSymbol: 'LAC',
+    tokenAddresses: {
+      97: '',
+      56: '0x015096C90433D27c36972Fe3DA10231e1a0865bF',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+
+  {
+    pid: 4,
+    risk: 3,
+    lpSymbol: 'MIL-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0x5c6c008af170f0e6c4ca4812c40f77bc905ec62a',
+    },
+    tokenSymbol: 'MIL',
+    tokenAddresses: {
+      97: '',
+      56: '0xCC6074E5Bf1F8bc8d80acec62Ba75D9Ff2b50e7d',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+
+  {
+    pid: 9,
+    risk: 3,
+    lpSymbol: 'PHO-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0x8fce78c4601da76697b9c14acebcbd07dfa11583',
+    },
+    tokenSymbol: 'PHO',
+    tokenAddresses: {
+      97: '',
+      56: '0xDc0ca7473dF7767907a90B5a8750966f169fe3Cf',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+
   {
     pid: 6,
     risk: 3,
@@ -114,6 +171,25 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
+
+  {
+    pid: 8,
+    risk: 3,
+    lpSymbol: 'UTA-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0x56dbe031939cfb5d1e8deb609fedf4f50da35531',
+    },
+    tokenSymbol: 'UTA',
+    tokenAddresses: {
+      97: '',
+      56: '0xbf8cF0478BBDC500EbEF67d03b5364897A62849D',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+
+ 
   // {
   //   pid: 3,
   //   risk: 1,
