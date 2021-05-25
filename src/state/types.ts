@@ -10,7 +10,7 @@ export interface Farm extends FarmConfig {
   depositFeeBP?: number
   harvestLockup?: number
   nextHarvestUntil?: number
-  slothPerBlock?: number
+  ballPerBlock?: number
     userData?: {
     allowance: BigNumber
     tokenBalance: BigNumber

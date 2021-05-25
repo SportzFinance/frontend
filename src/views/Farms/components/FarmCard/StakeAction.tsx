@@ -42,9 +42,9 @@ const StakeAction: React.FC<FarmCardActionsProps> = ({ stakedBalance, tokenBalan
       <Button onClick={onPresentDeposit}>{TranslateString(999, 'Stake')}</Button>
     ) : (
       <IconButtonWrapper>
-        <IconButton variant="tertiary" onClick={onPresentWithdraw} mr="6px">
+        {false ? <IconButton variant="tertiary" onClick={onPresentWithdraw} mr="6px">
           <MinusIcon color="primary" />
-        </IconButton>
+        </IconButton> : null} 
         <IconButton variant="tertiary" onClick={onPresentDeposit}>
           <AddIcon color="primary" />
         </IconButton>
