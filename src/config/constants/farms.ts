@@ -69,7 +69,23 @@ const farms: FarmConfig[] = [
   {
     pid: 4,
     risk: 3,
-    lpSymbol: 'BKN-BUSD LP',
+    lpSymbol: 'MIL-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0x5c6c008af170f0e6c4ca4812c40f77bc905ec62a',
+    },
+    tokenSymbol: 'MIL',
+    tokenAddresses: {
+      97: '',
+      56: '0xCC6074E5Bf1F8bc8d80acec62Ba75D9Ff2b50e7d',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
+    pid: 5,
+    risk: 3,
+    lpSymbol: 'BKN-BALL LP',
     lpAddresses: {
       97: '',
       56: '0xf223599cd3b942d948ade28e9d806efd42743fe0',
@@ -78,6 +94,22 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '',
       56: '0xA215c5FBCB6dDEF97d4AC7FeEea08e6f069fD767',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
+    pid: 6,
+    risk: 3,
+    lpSymbol: 'PHI-BALL LP',
+    lpAddresses: {
+      97: '',
+      56: '0x299e978eaaaf6846f4b71f6167c55ebc1487ebc1',
+    },
+    tokenSymbol: 'PHI',
+    tokenAddresses: {
+      97: '',
+      56: '0x37F0Df4395ABa3810317BFcFC2fc2059Ec3ac6ee',
     },
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,

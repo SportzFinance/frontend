@@ -25,7 +25,7 @@ const Menu = (props) => {
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd.toNumber()}
       links={config}
-      priceLink="https://www.bscscan.com/token/0xacf12aa729c7d6f45f7c116dd369930c6d46b584"
+      priceLink="https://www.bscscan.com/token/0xDb44A32d10d793795C691F1aE4067C626d903852"
       {...props}
     />
   )
